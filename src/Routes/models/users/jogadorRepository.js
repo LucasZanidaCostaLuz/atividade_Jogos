@@ -9,7 +9,7 @@ class UsersRepository {
     }
     addUser(name, email, password) {
         const newUser = new User(name, email, password);
-
+        
         this.users.push(newUser)
 
         return newUser
